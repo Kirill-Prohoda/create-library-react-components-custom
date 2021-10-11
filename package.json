@@ -1,13 +1,13 @@
 {
   "name": "@kirillprohoda/create-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/index.jsx",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "typings": "dist/index",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c && copy \"package.json\" \"dist\""
   },
   "keywords": [],
   "author": "kirill",
