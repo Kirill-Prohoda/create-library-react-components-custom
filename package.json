@@ -1,0 +1,34 @@
+{
+  "name": "@kirillprohoda/create-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "typings": "dist/index",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "kirill",
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/rollup": "^5.5.0",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "postcss": "^8.3.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-url": "^3.0.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "jsx-runtime": "^1.2.0"
+  }
+}
